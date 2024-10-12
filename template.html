@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Capacitación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Capacitación</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID CAPACITACIÓN</th>
+                    <th>USER</th>
+                    <th>NOMBRE</th>
+                    <th>FECHA</th>
+                    <th>SEDE EDUCATIVA</th>
+                    <th>MUNICIPIO</th>
+                    <th>HORA INICIAL</th>
+                    <th>HORA FINAL</th>
+                    <th>DURACIÓN</th>
+                    <th>TEMAS</th>
+                    <th>EVALUACIÓN</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>usuario1</td>
+                    <td>Juan Pérez</td>
+                    <td>10/10/2024</td>
+                    <td>Escuela Central</td>
+                    <td>Yumbo</td>
+                    <td>08:00 AM</td>
+                    <td>12:00 PM</td>
+                    <td>4 horas</td>
+                    <td>Seguridad Alimentaria</td>
+                    <td>Excelente</td>
+                </tr>
+                <!-- Puedes agregar más filas aquí -->
+            </tbody>
+        </table>
+        <button onclick="downloadPDF()">Descargar PDF</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
